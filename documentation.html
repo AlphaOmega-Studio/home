@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документация — ΑΩ Studio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <span class="alpha-omega">ΑΩ</span> Studio
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="projects.html">Проекты</a></li>
+                    <li><a href="documentation.html" class="active">Документация</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Секретная документация</h1>
+                <p>Рассекреченные материалы по инциденту Δ‑М, бестиарий, глоссарий и уставы организации ΑΩ.</p>
+                <p><i class="fas fa-lock-open"></i> Гриф "Совершенно секретно" снят для агентов ΑΩ</p>
+            </div>
+        </section>
+
+        <section class="docs-grid">
+            <div class="container">
+                <!-- Документ 1: Аннотация / План проекта -->
+                <div class="doc-card">
+                    <div class="doc-title">
+                        <i class="fas fa-file-alt"></i> Аннотация — План проекта
+                        <span class="doc-date">v.1.2</span>
+                    </div>
+                    <iframe srcdoc='
+                        <html style="background:#0e121f;color:#cbd5e6;font-family:system-ui;padding:1rem;">
+                        <style>body { margin:0; } h2 { color:#00ffcc; } hr { border-color:#2d3a5e; }</style>
+                        <body>
+                        <h2>📌 Команда</h2>
+                        <p><strong>Агент Α</strong> — Директор, game-дизайнер<br><strong>Агент Ω</strong> — Главный инженер-разработчик</p>
+                        <h2>🎮 Проект: Project ΑΩ</h2>
+                        <h3>Планы:</h3>
+                        <ul>
+                        <li>Singleplayer / Multiplayer</li><li>Campany / Freeplay</li><li>Level Editor</li>
+                        <li>Сайт с документацией / Workshop</li><li>Freetrack/TrackIR</li><li>Xbox360 Controller Support</li>
+                        <li>Реализм геймплея FPS</li><li>Сюжет</li>
+                        </ul>
+                        </body></html>
+                    ' width="100%" height="500" style="border:1px solid #2a3a5a; border-radius:8px;" title="План проекта"></iframe>
+                </div>
+
+                <!-- Документ 2: Бестиарий -->
+                <div class="doc-card">
+                    <div class="doc-title">
+                        <i class="fas fa-skull"></i> Бестиарий (Приложение к документации)
+                        <span class="doc-date">№16, 36, 65, 4</span>
+                    </div>
+                    <iframe srcdoc='
+                        <html style="background:#0e121f;color:#cbd5e6;font-family:system-ui;padding:1rem;">
+                        <style> .anomaly { border-left:4px solid #ff5555; padding:0.5rem; margin:1rem 0; background:#151e2c; } </style>
+                        <body>
+                        <h1>БЕСТИАРИЙ Project ΑΩ</h1>
+                        <div class="anomaly"><strong>№16: “Apollo”</strong> — Класс ΑΩ, Уровень Особый. Мгновенно забирает энергию, повышает характеристики.</div>
+                        <div class="anomaly"><strong>№36: “Страж”</strong> — Класс ΘΓ, Уровень Особый.</div>
+                        <div class="anomaly"><strong>№65: “Маяк”</strong> — Класс ΑΩ+, Уровень Особый. Активация требует много Δ-энергии, в радиусе 300 км вызывает мутации и появление аномалий.</div>
+                        <div class="anomaly"><strong>№4: “Ядро”</strong> — Класс ΘΑ (Ω), Уровень 4. Ядро распространения Δ-Μ, вокруг появляются монстры.</div>
+                        <div class="anomaly"><strong>Lomka, GayMer</strong> — данные неполные.</div>
+                        </body></html>
+                    ' width="100%" height="500" style="border:1px solid #2a3a5a; border-radius:8px;" title="Бестиарий"></iframe>
+                </div>
+
+                <!-- Документ 3: Глоссарий -->
+                <div class="doc-card">
+                    <div class="doc-title">
+                        <i class="fas fa-book-open"></i> Глоссарий Project ΑΩ
+                    </div>
+                    <iframe srcdoc='
+                        <html style="background:#0e121f;color:#cbd5e6;font-family:system-ui;padding:1rem;">
+                        <body>
+                        <h2>Часть 1: Инцидент Δ-М</h2>
+                        <p><strong>∆-М</strong> — метеорит из быстрораспадающегося вещества. Вызвал мутацию генокода половины живых существ.</p>
+                        <p><strong>Δ-Существо</strong> — мутировавшее существо со СверхСпособностями.</p>
+                        <p><strong>Аномалия</strong> — Δ-Существо нечеловеческой природы.</p>
+                        <h2>Организация ΑΩ</h2>
+                        <p><strong>Указ №7</strong> — создание организации. <strong>ТЗПКНБ</strong> — Тайное Заседание Правительств.</p>
+                        <p><strong>Цель</strong>: изучение, захват, уничтожение Аномалий; национальная безопасность.</p>
+                        </body></html>
+                    ' width="100%" height="500" style="border:1px solid #2a3a5a; border-radius:8px;"></iframe>
+                </div>
+
+                <!-- Документ 4: Документация “Организация ΑΩ” -->
+                <div class="doc-card">
+                    <div class="doc-title">
+                        <i class="fas fa-id-card"></i> Личный состав и структура
+                    </div>
+                    <iframe srcdoc='
+                        <html style="background:#0e121f;color:#cbd5e6;font-family:system-ui;padding:1rem;">
+                        <body>
+                        <h2>Организация ΑΩ</h2>
+                        <p><strong>Главнокомандующий</strong> — Агент Α (21 год, способность: управление векторами). Оружие: красное Тан-Дао (блокирует регенерацию) и чёрный меч (поглощает Δ-энергию).</p>
+                        <p><strong>Заместитель</strong> — Агент Β, стратег.</p>
+                        <p><strong>22 агента</strong> (Β-Ψ), среди них: Γ (врач, восстановление), Δ (пилот), Ε (физик-ядерщик), Θ (военный, создание полуматериальных объектов) и другие.</p>
+                        <p><strong>Агент Ω</strong> — личность засекречена. Обладает сверхрефлексами, усилением всех характеристик.</p>
+                        </body></html>
+                    ' width="100%" height="500" style="border:1px solid #2a3a5a; border-radius:8px;"></iframe>
+                </div>
+
+                <!-- Документ 5: Черновики (миссии, лог радиосвязи) -->
+                <div class="doc-card">
+                    <div class="doc-title">
+                        <i class="fas fa-pen-fancy"></i> Черновики миссий и протоколы
+                    </div>
+                    <iframe srcdoc='
+                        <html style="background:#0e121f;color:#cbd5e6;font-family:system-ui;padding:1rem;">
+                        <body>
+                        <h2>Выдержка из лога миссии №4</h2>
+                        <pre style="background:#000;padding:1rem;border-radius:8px;color:#0f0;">
+[20:00:00] [HQ]: Начало миссии №4.
+[20:27:38] [HQ:A]: Инициирован протокол №99998
+[20:31:39] [AO]: Прибыл агент Ω.
+[20:33:12] [AO]: Аномалия “Махорага” нейтрализована за 1,55 мин.
+[20:35:57] [HQ]: Миссия №4 завершена. Успех.
+                        </pre>
+                        <h3>Список агентов (черновик)</h3>
+                        <p>Α — главком, Β — стратег, Γ — врач, Δ — пилот, Ε — ядерщик, Ζ — аналитик рисков, Η — стратег, Θ — военный, Ι — IT, и т.д. до Ψ (физик).</p>
+                        </body></html>
+                    ' width="100%" height="500" style="border:1px solid #2a3a5a; border-radius:8px;"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-copy">© 2026 ΑΩ Studio. По указу №7 ТЗПКНБ.</div>
+                <div class="footer-links">
+                    <a href="#"><i class="fab fa-steam"></i> Steam</a>
+                    <a href="#"><i class="fab fa-discord"></i> Discord</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
