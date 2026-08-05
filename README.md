@@ -7,6 +7,6 @@ Web-page of ΑΩ Studio
 ## English
 Here will be a description...
 ---
-## 📄 Лицензия / License
+## ⚖️ Лицензия / License
 
 [Ivy Software License (ISL)](https://github.com/AlphaOmega-Studio/.github/blob/main/LICENSE.md) — Русский | English
